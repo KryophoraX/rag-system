@@ -1,4 +1,27 @@
-.venv/
+# Environment variables / API keys
 .env
+.env.*
+
+# Python
 __pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# RAG / vector database
 faiss_index/
+
+# Local data
+documents/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+.env
